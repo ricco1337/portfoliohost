@@ -1,0 +1,19 @@
+.resumeimage{
+  display: block;
+margin: 0 auto;
+}
+.resume-second-caption{
+  font-family: 'Assistant', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  padding: 30px;
+}
+.download-button{
+  width: 170px;
+  display: block;
+margin: 0 auto;
+padding-top: 40px;
+}
+.download-button:hover{
+cursor: pointer;
+}

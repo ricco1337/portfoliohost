@@ -45,6 +45,7 @@ class HomePage extends Component {
             </li>
           </ul>
         </div>
+        <div className='white-space'></div>
       </div>
     )
   }

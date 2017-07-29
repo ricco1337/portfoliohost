@@ -25,7 +25,7 @@ class PortfolioPage extends Component {
       <ElsistemaExample />
 
 
-<div className='portfolio-footer'>
+           <div className='portfolio-footer'>
             <div className='line'></div>
             <div className='contact'>
               <h2>Contact</h2>
@@ -40,6 +40,7 @@ class PortfolioPage extends Component {
                 </li>
               </ul>
             </div>
+            <div className='white-space'></div>
 </div>
 
 

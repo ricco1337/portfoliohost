@@ -7,6 +7,7 @@
   background-color: #333;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .link-nav {
@@ -85,4 +86,7 @@
 }
 .portfolio-footer{
   padding-top: 90px;
+}
+.white-space{
+  height: 20px;
 }

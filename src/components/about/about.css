@@ -1,0 +1,85 @@
+.biography-header{
+  font-family: 'Assistant', sans-serif;
+  font-size: 60px;
+  line-height: 36px;
+  text-align: start;
+  letter-spacing: 1.8px;
+  text-align: left;
+  padding-top: 100px;
+}
+.biography-caption{
+  font-family: 'Assistant', sans-serif;
+  padding-top: 10px;
+  font-size: 30px;
+}
+.bio-img {
+  border-radius: 83px;
+  width: 465px;
+  display: block;
+  margin: 0 auto;
+}
+figcaption{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-align: center;
+  padding-top: 4px;
+  font-weight: 900;
+}
+.hello{
+  font-family: 'Assistant', sans-serif;
+  padding-top: 35px;
+  font-size: 30px;
+  text-align: center;
+  color: #b7b7b7;
+}
+.bio-paragraph{
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+font-weight: 400;
+}
+.skills-header{
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  padding-top: 65px;
+}
+.skills-icons{
+  display: inline-flex;
+  padding-left: 5.7%;
+  padding-top: 35px;
+}
+.skills-icon:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.skill-img{
+  padding: 22px;
+
+}
+.skill-list{
+  padding-top: 50px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+
+}
+
+.skillset{
+  padding: 5px;
+
+}
+.col-md-2{
+  padding-left: 19%;
+
+}
+.about-line{
+  align-items: center;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: .5em 10%;
+  padding: 0;
+  margin-top: 50px;
+}
+.white-space{
+  height: 20px;
+}
