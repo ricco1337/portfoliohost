@@ -83,3 +83,33 @@ font-weight: 400;
 .white-space{
   height: 20px;
 }
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px){
+
+.skill-img{
+  padding: 6px;
+}
+.skill-set{
+  font-size: 9px;
+}
+.skills-list{
+  display: flex;
+}
+.col-md-2{
+  padding-left: 9.2%;
+}
+.skill-list{
+  padding-top: 29px;
+  font-size: 16px;
+  text-align: center;
+}
+.biography-header{
+text-align: center;
+}
+.biography-caption{
+  text-align: center;
+}
+.bio-img {
+  padding-top: 25px;
+
+}
+}

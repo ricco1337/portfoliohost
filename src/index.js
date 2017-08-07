@@ -20,4 +20,3 @@ ReactDOM.render(
     </switch>
     </Router>,
 document.getElementById('root'));
-registerServiceWorker();
