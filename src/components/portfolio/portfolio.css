@@ -112,6 +112,12 @@
   .social-img{
     width: 45px;
   }
+  .contact-email{
+    font-size: 27px;
+  }
+  .contact-number{
+    font-size: 27px;
+  }
 }
 
 @media only screen and (min-device-width: 410px) and (max-device-height: 736px) {
@@ -131,6 +137,9 @@
     width: 685px;
   }
   .contact-email{
+    font-size: 27px;
+  }
+  .contact-number{
     font-size: 27px;
   }
   .social-img{
