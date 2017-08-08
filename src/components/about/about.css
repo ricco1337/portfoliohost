@@ -137,6 +137,7 @@ figcaption {
   }
   .bio-img {
     border-radius: 0px;
+    width: 680px;
   }
   .img-responsive {
     display: block;

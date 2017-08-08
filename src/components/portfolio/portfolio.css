@@ -102,12 +102,12 @@
 
   }
   .screen-img {
-    width: 617px;
+    width: 634px;
     height: auto;
   }
   .screen-links {
-    margin-left: 7%;
-    width: 650px;
+    margin-left: 2%;
+    width: 685px;
   }
 }
 
@@ -117,14 +117,20 @@
     font-size: 29px;
     font-weight: 500;
     line-height: 47px;
-    
+
   }
   .screen-img {
-    width: 617px;
+    width: 634px;
     height: auto;
   }
   .screen-links {
-    margin-left: 7%;
-    width: 650px;
+    margin-left: 2%;
+    width: 685px;
+  }
+  .contact-email{
+    font-size: 27px;
+  }
+  .social-img{
+    width: 45px;
   }
 }
