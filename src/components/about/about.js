@@ -22,8 +22,8 @@ class AboutPage extends Component {
       <div className='about-line'></div>
       <div className='contact'>
         <h2>Contact</h2>
-        <p className='contact-email'>RICCO1337@OUTLOOK.COM</p>
-        <p className='contact-number'>360-840-9923</p>
+        <p className='contact-email'><a href="mailto:ricco1337@outlook.com">RICCO1337@OUTLOOK.COM</a></p>
+        <p className='contact-number'><a href='tel:360-840-9923'>360-840-9923</a></p>
         <ul className='social'>
           <li className='social-links'>
               <a href='https://www.linkedin.com/in/ricco-hall-6b8218139/'><img src={linked} className='social-img' alt='linkedin'></img></a>
