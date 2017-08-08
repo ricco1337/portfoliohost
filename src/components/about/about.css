@@ -84,6 +84,12 @@ font-weight: 400;
   height: 20px;
 }
 @media only screen and (min-device-width: 412px) and (max-device-height: 736px){
+  .hello{
+    font-size: 41px;
+  }
+  .bio-paragraph{
+    font-size: 42px
+  }
   .img-responsive {
   display: block;
   max-width: 100%;
@@ -120,7 +126,12 @@ font-weight: 400;
 }
 }
 @media only screen and (min-device-width: 350px) and (max-device-height: 667px){
-
+  .hello{
+    font-size: 41px;
+  }
+  .bio-paragraph{
+    font-size: 42px
+  }
     .bio-img {
       border-radius: 0px;
     }
