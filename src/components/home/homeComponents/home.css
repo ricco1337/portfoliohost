@@ -131,6 +131,14 @@ ul {
   width: 617px;
   height: auto;
 }
+.resume-img{
+  width: 617px;
+  height: auto;
+}
+.about-img{
+  width: 617px;
+  height: auto;
+}
 .home-links{
   font-size: 33px;
 }
@@ -140,6 +148,14 @@ ul {
   .home-imgs{
     width: 617px;
     height: auto;
+}
+.about-img{
+  width: 617px;
+  height: auto;
+}
+.resume-img{
+  width: 617px;
+  height: auto;
 }
 .home-links{
   font-size: 33px;
