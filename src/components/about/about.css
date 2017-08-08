@@ -180,6 +180,10 @@ figcaption {
   .col-md-2 {
     text-align: center;
     display: inline-block;
-    
+
+  }
+  .bio-img {
+    border-radius: 0px;
+    width: 680px;
   }
 }
