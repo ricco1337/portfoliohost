@@ -120,6 +120,9 @@ font-weight: 400;
 }
 }
 @media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+  ul{
+    padding: 0px;
+  }
     .bio-img {
       border-radius: 0px;
     }
