@@ -1,3 +1,4 @@
+
 import React, {Component} from 'react';
 import './home.css';
 import About from '../assets/flag.jpg';
@@ -36,7 +37,7 @@ class HomePage extends Component {
           <h2>Contact</h2>
             <p className='contact-email'><a href="mailto:ricco1337@outlook.com">RICCO1337@OUTLOOK.COM</a></p>
             <p className='contact-number'><a href='tel:360-840-9923'>360-840-9923</a></p>
-        
+
           <ul className='social'>
             <li className='social-links'>
                 <a href='https://www.linkedin.com/in/ricco-hall-6b8218139/'><img src={linked} className='social-img' alt='linkedin'></img></a>
