@@ -90,3 +90,22 @@
 .white-space{
   height: 20px;
 }
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+  .img-responsive{
+    width: 617px;
+    height: auto;
+  }
+  .screen-links{
+    margin-left: 0px
+  }
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+  .img-responsive{
+    width: 617px;
+    height: auto;
+  }
+  .screen-links{
+    margin-left: 0px
+  }
+}

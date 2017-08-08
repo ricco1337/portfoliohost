@@ -87,9 +87,7 @@ font-weight: 400;
   .hello{
     font-size: 41px;
   }
-  .bio-paragraph{
-    font-size: 42px
-  }
+
   .img-responsive {
   display: block;
   max-width: 100%;
@@ -129,17 +127,17 @@ font-weight: 400;
   .hello{
     font-size: 41px;
   }
-  .bio-paragraph{
-    font-size: 42px
-  }
+
     .bio-img {
       border-radius: 0px;
     }
     .img-responsive {
     display: block;
-    max-width: 100%;
+    width: 617px;
     height: auto;
-
+}
+.home-links{
+  font-size: 33px;
 }
 .skill-img{
   padding: 6px;
@@ -187,7 +185,11 @@ text-align: center;
       text-align: center;
     }
     .bio-paragraph{
-      font-size: 20px;
+      font-size: 42px;
+    }
+    .screen-links{
+      width: 662px;
+      margin-left: 0%;
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px){

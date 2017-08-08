@@ -126,3 +126,24 @@ ul {
 .white-space{
   height: 10px;
 }
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+.img-responsive{
+  width: 617px;
+  height: auto;
+}
+.home-links{
+  font-size: 33px;
+}
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+  .img-responsive{
+    width: 617px;
+    height: auto;
+}
+.home-links{
+  font-size: 33px;
+}
+
+
+}
