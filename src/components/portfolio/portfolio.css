@@ -60,19 +60,20 @@
   text-align: center;
 }
 
-.screen-links{
+.screen-links {
   display: inline-flex;
   width: 380px;
   padding: 8px;
 }
-.screen-img:hover{
+
+.screen-img:hover {
   transform: scale(1.1);
   cursor: pointer;
-  box-shadow:5px 2px 15px 3px rgba(0,0,0,0.15);
- transition: 0.3s ease-in-out;
+  box-shadow: 5px 2px 15px 3px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
 }
 
-.portfolio-example-header{
+.portfolio-example-header {
   font-family: 'Assistant', sans-serif;
   padding-top: 65px;
   text-align: center;
@@ -84,28 +85,43 @@
   padding-top: 6px;
   text-align: center;
 }
-.portfolio-footer{
+
+.portfolio-footer {
   padding-top: 90px;
 }
-.white-space{
+
+.white-space {
   height: 20px;
 }
-@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
-  .screen-img{
+
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px) {
+  .portfolio-caption{
+    font-size: 29px;
+    font-size: 500;
+    line-height: 47px;
+  }
+  .screen-img {
     width: 617px;
     height: auto;
   }
-  .screen-links{
-    margin-left: 24%;
+  .screen-links {
+    margin-left: 7%;
+    width: 650px;
   }
 }
 
-@media only screen and (min-device-width: 410px) and (max-device-height: 736px){
-  .screen-img{
+@media only screen and (min-device-width: 410px) and (max-device-height: 736px) {
+  .portfolio-caption{
+    font-size: 29px;
+    font-size: 500;
+    line-height: 47px;
+  }
+  .screen-img {
     width: 617px;
     height: auto;
   }
-  .screen-links{
-    margin-left: 24%;
+  .screen-links {
+    margin-left: 7%;
+    width: 650px;
   }
 }
