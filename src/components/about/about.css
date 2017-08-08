@@ -90,6 +90,9 @@ font-weight: 400;
   height: auto;
 
 }
+.bio-img {
+  border-radius: 83px;
+}
 .skill-img{
   padding: 6px;
 }
@@ -121,6 +124,9 @@ font-weight: 400;
       padding: 0px;
       margin-right: auto;
       margin-left: auto;
+    }
+    .bio-img {
+      border-radius: 83px;
     }
     .img-responsive {
     display: block;
