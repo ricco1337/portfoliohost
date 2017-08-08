@@ -136,7 +136,7 @@ ul {
 }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-height: 1024px){
+@media only screen and (min-device-width: 410px) and (max-device-height: 736px){
   .home-imgs{
     width: 617px;
     height: auto;
