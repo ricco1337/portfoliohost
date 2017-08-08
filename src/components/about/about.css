@@ -186,4 +186,7 @@ figcaption {
     border-radius: 0px;
     width: 680px;
   }
+  .bio-paragraph {
+    font-size: 42px;
+  }
 }
