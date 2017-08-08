@@ -96,16 +96,16 @@
     height: auto;
   }
   .screen-links{
-    margin-left: 0px
+    margin-left: 38px
   }
 }
 
-@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px){
   .img-responsive{
     width: 617px;
     height: auto;
   }
   .screen-links{
-    margin-left: 0px
+    margin-left: 38px
   }
 }
