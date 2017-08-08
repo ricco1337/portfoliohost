@@ -83,8 +83,13 @@ font-weight: 400;
 .white-space{
   height: 20px;
 }
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px){
+@media only screen and (min-device-width: 412px) and (max-device-height: 736px){
+  .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 
+}
 .skill-img{
   padding: 6px;
 }
@@ -95,7 +100,45 @@ font-weight: 400;
   display: flex;
 }
 .col-md-2{
-  padding-left: 9.2%;
+  padding-left: 8%;
+}
+.skill-list{
+  padding-top: 29px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.biography-caption{
+ padding: 18px;
+ text-align: center;
+}
+.biography-header{
+  text-align: center;
+}
+}
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
+  .container {
+      padding: 0px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+}
+.skill-img{
+  padding: 6px;
+}
+.skill-set{
+  font-size: 9px;
+}
+.skills-list{
+  display: flex;
+}
+.col-md-2{
+  padding-left: 8%;
 }
 .skill-list{
   padding-top: 29px;
@@ -112,4 +155,34 @@ text-align: center;
   padding-top: 25px;
 
 }
+.portfolio-header {
+    font-family: 'Assistant', sans-serif;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: start;
+    letter-spacing: 1.8px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+    .portfolio-caption {
+      font-family: 'Montserrat', arial;
+      font-size: 17px;
+      line-height: 27px;
+      text-align: left;
+      padding-top: 40px;
+      text-align: center;
+    }
+    .bio-paragraph{
+      font-size: 20px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-height: 1024px){
+
+  .col-md-2{
+  text-align: center;
+  display: inline-block;
+  padding-left: 19%;
+}
+
 }
