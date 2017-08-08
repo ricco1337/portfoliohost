@@ -120,11 +120,6 @@ font-weight: 400;
 }
 }
 @media only screen and (min-device-width: 350px) and (max-device-height: 667px){
-  .container {
-      padding: 0px;
-      margin-right: 0;
-      margin-left: 0;
-    }
     .bio-img {
       border-radius: 0px;
     }
@@ -132,7 +127,7 @@ font-weight: 400;
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 0%;
+
 }
 .skill-img{
   padding: 6px;
