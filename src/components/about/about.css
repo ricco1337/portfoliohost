@@ -133,11 +133,8 @@ font-weight: 400;
     }
     .img-responsive {
     display: block;
-    width: 617px;
+    max-width: 100%;
     height: auto;
-}
-.home-links{
-  font-size: 33px;
 }
 .skill-img{
   padding: 6px;
