@@ -122,6 +122,7 @@ font-weight: 400;
 .biography-header{
   text-align: center;
 }
+
 }
 @media only screen and (min-device-width: 350px) and (max-device-height: 667px){
   .hello{
@@ -184,10 +185,7 @@ text-align: center;
     .bio-paragraph{
       font-size: 42px;
     }
-    .screen-links{
-      width: 662px;
-      margin-left: 0%;
-    }
+
 }
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px){
 

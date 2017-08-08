@@ -127,7 +127,7 @@ ul {
   height: 10px;
 }
 @media only screen and (min-device-width: 350px) and (max-device-height: 667px){
-.img-responsive{
+.home-imgs{
   width: 617px;
   height: auto;
 }
@@ -137,7 +137,7 @@ ul {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-height: 1024px){
-  .img-responsive{
+  .home-imgs{
     width: 617px;
     height: auto;
 }
