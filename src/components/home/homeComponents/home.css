@@ -49,26 +49,27 @@ ul {
   height: 200px;
   width: 330px;
   transition: 0.3s ease-in-out;
-
 }
-.home-imgs:hover{
+
+.home-imgs:hover {
   transform: scale(1.1);
   cursor: pointer;
-  box-shadow:5px 2px 15px 3px rgba(0,0,0,0.15);
- transition: 0.3s ease-in-out;
+  box-shadow: 5px 2px 15px 3px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
 }
+
 .about-img {
   image-resolution: from-image;
   height: 200px;
   width: 330px;
   transition: all 0.3s ease-in-out;
-
 }
-.about-img:hover{
+
+.about-img:hover {
   transform: scale(1.1);
   cursor: pointer;
-  box-shadow:5px 2px 15px 3px rgba(0,0,0,0.15);
- transition: 0.3s ease-in-out;
+  box-shadow: 5px 2px 15px 3px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
 }
 
 .resume-img {
@@ -77,12 +78,12 @@ ul {
   width: 330px;
   transition: 0.3s ease-in-out;
 }
-.resume-img:hover{
+
+.resume-img:hover {
   transform: scale(1.1);
   cursor: pointer;
-  box-shadow:5px 2px 15px 3px rgba(0,0,0,0.15);
- transition: 0.3s ease-in-out;
-
+  box-shadow: 5px 2px 15px 3px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
 }
 
 .line {
@@ -112,54 +113,56 @@ ul {
 
 .social-links {
   display: inline-block;
-  padding:4px;
+  padding: 4px;
 }
-.social-links:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+
+.social-links:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
+
 .social-img {
   align-items: center;
   width: 30px;
   display: inline-block;
 }
-.white-space{
+
+.white-space {
   height: 10px;
 }
-@media only screen and (min-device-width: 350px) and (max-device-height: 667px){
-.home-imgs{
-  width: 617px;
-  height: auto;
-}
-.resume-img{
-  width: 617px;
-  height: auto;
-}
-.about-img{
-  width: 617px;
-  height: auto;
-}
-.home-links{
-  font-size: 33px;
-}
-}
 
-@media only screen and (min-device-width: 410px) and (max-device-height: 736px){
-  .home-imgs{
+@media only screen and (min-device-width: 350px) and (max-device-height: 667px) {
+  .home-imgs {
     width: 617px;
     height: auto;
-}
-.about-img{
-  width: 617px;
-  height: auto;
-}
-.resume-img{
-  width: 617px;
-  height: auto;
-}
-.home-links{
-  font-size: 33px;
+  }
+  .resume-img {
+    width: 617px;
+    height: auto;
+  }
+  .about-img {
+    width: 617px;
+    height: auto;
+  }
+  .home-links {
+    font-size: 33px;
+  }
 }
 
-
+@media only screen and (min-device-width: 410px) and (max-device-height: 736px) {
+  .home-imgs {
+    width: 617px;
+    height: auto;
+  }
+  .about-img {
+    width: 617px;
+    height: auto;
+  }
+  .resume-img {
+    width: 617px;
+    height: auto;
+  }
+  .home-links {
+    font-size: 33px;
+  }
 }

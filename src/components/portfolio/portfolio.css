@@ -99,7 +99,7 @@
     font-size: 29px;
     font-weight: 500;
     line-height: 47px;
-    
+
   }
   .screen-img {
     width: 617px;
@@ -112,6 +112,9 @@
 }
 
 @media only screen and (min-device-width: 410px) and (max-device-height: 736px) {
+  .portfolio-header{
+    text-align: center;
+  }
   .portfolio-caption{
     font-size: 29px;
     font-weight: 500;
