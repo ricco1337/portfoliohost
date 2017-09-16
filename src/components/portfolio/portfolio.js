@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import BoostedExample from './portfolioComponents/boostedExample';
 import ElsistemaExample from './portfolioComponents/elsistemaExample';
+import NikeExample from './portfolioComponents/nikeExample';
 import github1 from './assets/github1.png';
 import linked1 from './assets/linkedin2.png';
 import './portfolio.css';
@@ -23,6 +24,7 @@ class PortfolioPage extends Component {
 
       <BoostedExample />
       <ElsistemaExample />
+      <NikeExample />
 
 
            <div className='portfolio-footer'>
