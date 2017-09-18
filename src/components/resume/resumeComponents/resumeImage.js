@@ -20,4 +20,5 @@ class Resumeimg extends Component {
   }
 }
 
+
 export default Resumeimg;
