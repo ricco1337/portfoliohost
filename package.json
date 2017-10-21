@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ricco1337.github.io/githubportfolio",
   "dependencies": {
     "forever": "^0.15.3",
     "react": "^15.6.1",
