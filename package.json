@@ -11,6 +11,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "nodemon": "^1.11.0",
     "react-scripts": "1.0.10",
     "react-static-webpack-plugin": "^2.1.0"
