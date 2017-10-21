@@ -12,11 +12,12 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "react-static-webpack-plugin": "^2.1.0"
   },
   "scripts": {
-  "deploy": "gh-pages-deploy",
-  "clean-source": "rimraf README.md src webroot package.json",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
