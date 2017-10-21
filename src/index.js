@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -10,7 +10,7 @@ import AboutPage from './components/about/about';
 import ResumePage from './components/resume/resume';
 
 ReactDOM.render(
-<Router>
+<HashRouter>
   <switch>
   <Route exact path='/' component={HomePage} />
     <Route path='/home' component={HomePage} />
@@ -18,5 +18,5 @@ ReactDOM.render(
     <Route path='/about' component={AboutPage} />
     <Route path='/resume' component={ResumePage}/>
     </switch>
-    </Router>,
+  </HashRouter>,
 document.getElementById('root'));
